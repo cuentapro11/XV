@@ -136,7 +136,8 @@ function updateMusicIcon() {
 
 // Countdown
 function initializeCountdown() {
-    const targetDate = new Date('2025-08-15T10:00:00').getTime();
+    // Cuenta regresiva hasta el 31/12/2025 23:59:59 hora local
+    const targetDate = new Date('2025-12-31T23:59:59').getTime();
     
     function updateCountdown() {
         const now = new Date().getTime();
