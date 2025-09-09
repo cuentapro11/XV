@@ -266,7 +266,7 @@ function openLocation(location) {
 }
 
 function suggestMusic() {
-    const whatsappMessage = "¡Hola! Me gustaría sugerir una canción para la playlist de la boda de Rafael y Juana 🎵";
+    const whatsappMessage = "¡Hola! Me gustaría sugerir una canción para la playlist de los XV de Rosmery 🎵";
     const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
 }
@@ -280,13 +280,13 @@ function showTips() {
 }
 
 function showGifts() {
-    const message = "Hola, me gustaría información sobre los regalos para la boda de Rafael y Juana 🎁";
+    const message = "Hola, me gustaría información sobre los regalos para los XV de Rosmery 🎁";
     const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
 
 function confirmAttendance() {
-    const message = "¡Hola! Quiero confirmar mi asistencia a la boda de Rafael y Juana el 15 de Agosto 💒✨";
+    const message = "¡Hola! Quiero confirmar mi asistencia a los XV de Rosmery 💖✨";
     const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
